@@ -13,14 +13,11 @@ section{
 }
 
 .half-width{
-    width: 50%;
+    width: 70%;
     padding-left: 2%;
     padding-top: 5%;
 }
-.half-width img{
-    width: 30%;
-    padding-top: 20%;
-}
+
 
 .linked-button{
     text-decoration: none;
@@ -31,7 +28,17 @@ section{
     border-radius: 5px;
 
 }
+.pic{
+    padding-left: 2%;
+}
 
 .top-banner{
     background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
