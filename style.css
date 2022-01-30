@@ -8,13 +8,14 @@ span{
     color: orange;
 }
 
-section{
+.flexible{
     display: flex;
+
 }
 
 .half-width{
-    width: 70%;
-    padding-left: 2%;
+
+    padding-left: 7%;
     padding-top: 5%;
 }
 
@@ -38,7 +39,40 @@ section{
 }
 
 .dream{
+    padding-top: 5%;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position-x: right;
+}
+.orange-color{
+    color: orange;
+}
+
+.half-width1{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+
+}
+.experience-area{
+    padding-top: 2%;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+}
+#valorant{
+    border-left: 7px solid;
+    border-image: linear-gradient(red,blue);
+    border-image-slice: 1;
+}
+
+#dota{
+    border-left: 7px solid;
+    border-image: linear-gradient(violet,salmon);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
